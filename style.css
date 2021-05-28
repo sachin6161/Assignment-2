@@ -1,0 +1,44 @@
+th,
+td,
+p,
+input,
+h3 {
+  font: 20px 'Segoe UI';
+}
+ table,
+th,
+td {
+  border: solid 2px #ddd;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: center;
+}
+th {
+  font-weight: bold;
+  height: 50px;
+  color: white;
+  background-color: yellowgreen;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+}
+#wrapper {
+  width: 955px;
+  padding: 0px;
+  margin: 0px auto;
+  font-family: helvetica;
+  text-align: center;
+}
+input[type='button'] {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+input[type='text'] {
+  width: 200px;
+  height: 30px;
+}
+.save {
+  display: none;
+}
