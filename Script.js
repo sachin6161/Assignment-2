@@ -7,7 +7,7 @@ let tableFromJson = () => {
   idbtn.value = 'Refresh Data';
   const data = [
     {
-      
+      sno:1,
       firstName: 'sachin',
       middleName: 'kumar',
       lastName: 'yadav',
@@ -18,7 +18,7 @@ let tableFromJson = () => {
     },
 
     {
-      
+     sno:2 ,
       firstName: 'Sourabh',
       middleName: 'Suresh',
       lastName: 'Jain',
@@ -28,7 +28,7 @@ let tableFromJson = () => {
       address: 'Sector 71, Noida',
     },
     {
-      
+      sno:3,
       firstName: 'Prakhar',
       middleName: 'Sudhir',
       lastName: 'Bhatele',
@@ -81,9 +81,9 @@ let tableFromJson = () => {
         button.setAttribute('value', 'Edit');
         button.setAttribute('id', `edit-button${rowN}`);
         button.addEventListener('click', function () {
-          document.getElementById(
-            'edit-button' + data[i]['sno']
-          ).style.display = 'none';
+           document.getElementById(
+             'edit-button' + data[i]['sno']
+           ).style.display = 'none';
           document.getElementById(
             'delete-button' + data[i]['sno']
           ).style.display = 'none';
